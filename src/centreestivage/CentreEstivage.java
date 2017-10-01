@@ -5,9 +5,11 @@
  */
 package centreestivage;
 
+import view.Login;
+
 /**
  *
- * @author sa
+ * @author zakaria
  */
 public class CentreEstivage {
 
@@ -15,7 +17,8 @@ public class CentreEstivage {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Login l = new Login();
+        l.setVisible(true);
     }
     
 }
